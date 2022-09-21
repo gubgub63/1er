@@ -1,0 +1,24 @@
+body {
+  	font-family: "Open Sans", sans-serif;
+  	padding: 5px 25px;
+  	font-size: 18px;
+  	margin: 0;
+  	text-align: center;
+  	color: black;
+  	background-color: grey;}
+h1 {
+  	font-family: "Open Sans", sans-serif;
+  	font-size: 32px;
+  	text-align: center;
+  	color: brown;
+  	padding-top: 20px;
+  	padding: 20px 0px 0px 0px;
+  	padding: 20px 0px;
+  	background-color: grey;}
+h2 {
+  	font-family: "Open Sans", sans-serif;
+  	font-size: 20px;
+  	text-align: center;
+  	color: lightblue;}
+canvas {
+  	background-color: darkgreen;}

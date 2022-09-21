@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site el-chaffraix</title>
+</head>
+<body>
+    <link rel="stylesheet" href="main.css">
+    <h1>Site el-chaffraix</h1>
+	
+    <p><em>Voici notre site  où vous pourez nous investire votre argent , avec une mise doublée.  </em></p>
+    <p>Les investissement vont de 0.10€ au minimum jusqu'à 1€ maximum* </p>
+    <section>
+        <div>
+            <form id="inscription"> 
+            <label for="name">Prénom</label>
+            <input type="text" name="name" id="name" placeholder="Entrez votre prénom">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="2" max="22" value="16">
+            <br>
+            <br>
+            <label for="mise">Mise en centimes </label>
+            <input type="number" name="mise" id="mise"  max="100" value="10" ><br><br>
+            <input type="submit" value="Valider">
+            
+            </form>
+    <p style="color: red;" id="erreur"></p>
+        </div>
+        <div>
+            <p>En fonction de la mise que vous nous confier ,vous pouvez faire un bénéfice plus important , mais cela comporte des risque, <br> si vous maittez votre somme sur un coéfficient plus important que 2,00 votre risque augment :  </p>
+            <br>
+            <p>x2,00 : risque faible  <br> x2,20 : risque considérable  <br> suppèrieur a x2,30: risque trés important </p>
+        </div>
+        <div>
+            <p> <strong>Exemple de mise et de  bénéfice :</strong>  </p>
+            <table border="1" width="50%">
+                <thead>
+                    <th>Mise</th>
+                    <th>Gain x2,00</th>
+                    <th>Gain x2,20</th>
+                    <th>Gain x2,50</th>
+                </thead>
+                <tbody>
+                    <td>0,10€</td>
+                    <td>0,20€</td>
+                    <td>0,22€</td>
+                    <td>0,25€</td>
+                </tbody>
+                <tbody>
+                    <td>0,50€</td>
+                    <td>1,00€</td>
+                    <td>1,10€</td>
+                    <td>1,25€</td>
+                </tbody>
+        
+                <tbody>
+                    <td>1,00€</td>
+                    <td>2,00€</td>
+                    <td>2,20€</td>
+                    <td>2,50€</td>
+                </tbody>
+                
+            </table>
+        </div>
+        <br><br><br><br><br><br><br>
+        <p><em>Nos réseaux sociaux :</em></p>
+        <span>/</span><a href="https://www.instagram.com/ismilou_industry/"> <em>instagram</em> </a><span>/</span>
+        <a href="https://www.tiktok.com/@ismilou_"><em>TikTok</em></a><span>/</span>
+
+        <h5>Fait par Enzo et Victor</h5>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
